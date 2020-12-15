@@ -15,8 +15,8 @@
 .bmw_logo{
     position: relative;
 
-    width: 50px;
-    height: 50px;
+    width: 92px;
+    height: 92px;
 
     display: flex;
     align-items: center;
@@ -30,26 +30,25 @@
     height: 100%;
 
     background: black;
-    border: 1px solid #bbb;
+    border: 2px solid #bbb;
     border-radius: 50%;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    /* animation: rotate-background 1s infinite ease; */
 }
 
 .bmw_logo-center{
     position: relative;
 
-    width: 60%;
-    height: 60%;
+    width: 55px;
+    height: 55px;
 
     background: #bbb;
     
     border-radius: 50%;
-    border: 1px solid #bbb;
+    border: 2px solid #bbb;
 
     overflow: hidden;
     
@@ -68,11 +67,11 @@
     top: 50%;
     left: 0;
 
-    height: 1px;
+    height: 2px;
     width: 100%;
     background: #bbb;
 
-    margin-top: -.5px;
+    margin-top: -1px;
 }
 
 .bmw_logo-center::before{
@@ -94,7 +93,7 @@
     width: 0;
     height: 0;
 
-    border: 20px solid;
+    border: 35px solid;
     border-top-color: #009ADA;
     border-bottom-color: #009ADA;
     border-right-color: white;
@@ -104,14 +103,14 @@
 }
 
 [class*="letter"]{
-    width: 9px;
-    height: 9px;
+    width: 14px;
+    height: 14px;
 
     position: absolute;
     top: 0;
 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 9px;
+    font-size: 14px;
     font-weight: 600;
     color: #bbb;
 
@@ -119,12 +118,11 @@
     align-items: center;
     justify-content: center;
 
-    animation: opacity 1s infinite linear;
 }
 
 .letter-b{
-    top: 6px;
-    left: 6px;
+    top: 12px;
+    left: 12px;
     transform: rotate(-45deg);
 }
 
@@ -133,8 +131,8 @@
 }
 
 .letter-w{
-    top: 6px;
-    right: 6px;
+    top: 12px;
+    right: 12px;
     transform: rotate(45deg);
 
     animation-delay: .2s;
@@ -146,23 +144,5 @@
     }
     100%{
         transform: rotate(360deg);
-    }
-}
-
-@keyframes rotate-background{
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(-360deg);
-    }
-}
-
-@keyframes opacity{
-    0%{
-        opacity: 1;
-    }
-    10%{
-        opacity: 0;
     }
 }
