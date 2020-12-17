@@ -5,3 +5,4 @@ Spinner Preview:
 
 
 HTML5 and CSS3 BMW Logo for loading page.
+Project done by guilhermecappi and lucascappi.
